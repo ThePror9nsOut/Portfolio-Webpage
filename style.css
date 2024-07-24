@@ -1,3 +1,44 @@
 body {
+    color: black;
+    background-color: white;
     font-family: Verdana;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-item img {
+    width: 150px;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+}
+
+.price {
+    color: #f00;
+    font-weight: bold;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
 }
